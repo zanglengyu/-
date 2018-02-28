@@ -1,0 +1,1260 @@
+fileFormatVersion: 2
+guid: 60c69960ad3662a4996b827a850cf8dc
+timeCreated: 1517896180
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: AutoGen_Sheet_gamefield_02_1
+    21300002: AutoGen_Sheet_gamefield_02_4
+    21300004: AutoGen_Sheet_gamefield_02_5
+    21300006: AutoGen_Sheet_gamefield_02_6
+    21300008: AutoGen_Sheet_gamefield_02_11
+    21300010: AutoGen_Sheet_gamefield_02_12
+    21300012: AutoGen_Sheet_gamefield_02_14
+    21300014: AutoGen_Sheet_gamefield_02_15
+    21300016: AutoGen_Sheet_gamefield_02_18
+    21300018: AutoGen_Sheet_gamefield_02_19
+    21300020: AutoGen_Sheet_gamefield_02_20
+    21300022: AutoGen_Sheet_gamefield_02_24
+    21300024: AutoGen_Sheet_gamefield_02_25
+    21300026: AutoGen_Sheet_gamefield_02_26
+    21300028: AutoGen_Sheet_gamefield_02_27
+    21300030: AutoGen_Sheet_gamefield_02_28
+    21300032: AutoGen_Sheet_gamefield_02_29
+    21300034: AutoGen_Sheet_gamefield_02_31
+    21300036: AutoGen_Sheet_gamefield_02_34
+    21300038: AutoGen_Sheet_gamefield_02_35
+    21300040: AutoGen_Sheet_gamefield_02_36
+    21300042: AutoGen_Sheet_gamefield_02_37
+    21300044: AutoGen_Sheet_gamefield_02_40
+    21300046: AutoGen_Sheet_gamefield_02_41
+    21300048: AutoGen_Sheet_gamefield_02_42
+    21300050: AutoGen_Sheet_gamefield_02_43
+    21300052: AutoGen_Sheet_gamefield_02_44
+    21300054: AutoGen_Sheet_gamefield_02_45
+    21300056: AutoGen_Sheet_gamefield_02_46
+    21300058: AutoGen_Sheet_gamefield_02_47
+    21300060: AutoGen_Sheet_gamefield_02_48
+    21300062: AutoGen_Sheet_gamefield_02_49
+    21300064: AutoGen_Sheet_gamefield_02_50
+    21300066: AutoGen_Sheet_gamefield_02_51
+    21300068: AutoGen_Sheet_gamefield_02_52
+    21300070: AutoGen_Sheet_gamefield_02_53
+    21300072: AutoGen_Sheet_gamefield_02_54
+    21300074: AutoGen_Sheet_gamefield_02_55
+    21300076: AutoGen_Sheet_gamefield_02_56
+    21300078: AutoGen_Sheet_gamefield_02_57
+    21300080: AutoGen_Sheet_gamefield_02_58
+    21300082: AutoGen_Sheet_gamefield_02_59
+    21300084: AutoGen_Sheet_gamefield_02_60
+    21300086: AutoGen_Sheet_gamefield_02_61
+    21300088: AutoGen_Sheet_gamefield_02_62
+    21300090: AutoGen_Sheet_gamefield_02_63
+    21300092: AutoGen_Sheet_gamefield_02_64
+    21300094: AutoGen_Sheet_gamefield_02_65
+    21300096: AutoGen_Sheet_gamefield_02_66
+    21300098: AutoGen_Sheet_gamefield_02_67
+    21300100: AutoGen_Sheet_gamefield_02_68
+    21300102: AutoGen_Sheet_gamefield_02_69
+    21300104: AutoGen_Sheet_gamefield_02_70
+    21300106: AutoGen_Sheet_gamefield_02_71
+    21300108: AutoGen_Sheet_gamefield_02_72
+    21300110: AutoGen_Sheet_gamefield_02_73
+    21300112: AutoGen_Sheet_gamefield_02_74
+    21300114: AutoGen_Sheet_gamefield_02_75
+    21300116: AutoGen_Sheet_gamefield_02_76
+    21300118: AutoGen_Sheet_gamefield_02_77
+    21300120: AutoGen_Sheet_gamefield_02_78
+    21300122: AutoGen_Sheet_gamefield_02_79
+    21300124: AutoGen_Sheet_gamefield_02_80
+    21300126: AutoGen_Sheet_gamefield_02_81
+    21300128: AutoGen_Sheet_gamefield_02_82
+    21300130: AutoGen_Sheet_gamefield_02_83
+    21300132: AutoGen_Sheet_gamefield_02_84
+    21300134: AutoGen_Sheet_gamefield_02_85
+    21300136: AutoGen_Sheet_gamefield_02_86
+    21300138: AutoGen_Sheet_gamefield_02_87
+    21300140: AutoGen_Sheet_gamefield_02_88
+    21300142: AutoGen_Sheet_gamefield_02_89
+    21300144: AutoGen_Sheet_gamefield_02_90
+    21300146: AutoGen_Sheet_gamefield_02_91
+    21300148: AutoGen_Sheet_gamefield_02_92
+    21300150: AutoGen_Sheet_gamefield_02_93
+    21300152: AutoGen_Sheet_gamefield_02_94
+    21300154: AutoGen_Sheet_gamefield_02_95
+    21300156: AutoGen_Sheet_gamefield_02_96
+    21300158: AutoGen_Sheet_gamefield_02_97
+    21300160: AutoGen_Sheet_gamefield_02_98
+    21300162: AutoGen_Sheet_gamefield_02_99
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_1
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1842
+        width: 351
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_4
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 1805
+        width: 194
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_5
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 1843.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_6
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 1769
+        width: 211
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_11
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1639.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_12
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 1697
+        width: 193
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_14
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1639.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_15
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 1639.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_18
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 1745
+        width: 176
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_19
+      rect:
+        serializedVersion: 2
+        x: 1762
+        y: 1615
+        width: 276
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1435.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_24
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1435.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_25
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 1435.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_26
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 1435.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_27
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 1435.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_28
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 1435.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_29
+      rect:
+        serializedVersion: 2
+        x: 1916
+        y: 1394
+        width: 121
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_31
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1231.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_34
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1231.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_35
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 1231.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_36
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 1231.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_37
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 1231.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1027.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_41
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1027.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_42
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 1027.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_43
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1027.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_44
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1027.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_45
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 1069
+        width: 291
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_46
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 1027.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_47
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 1189
+        width: 266
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_48
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 1027.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_49
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 1027.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 823.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_51
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 823.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_52
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 823.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_53
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 823.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_54
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 823.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_55
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 823.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_56
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 823.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_57
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 823.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_58
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 823.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_59
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 823.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 619.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_61
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 619.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_62
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 619.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_63
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 619.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_64
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 619.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_65
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 619.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_66
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 619.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_67
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 619.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_68
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 619.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_69
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 619.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 415.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_71
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 415.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_72
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 415.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_73
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 415.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_74
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 415.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_75
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 415.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_76
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 415.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_77
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 415.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_78
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 415.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_79
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 415.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 211.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_81
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 211.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_82
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 211.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_83
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 211.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_84
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 211.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_85
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 211.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_86
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 211.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_87
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 211.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_88
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 211.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_89
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 211.2
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7.199997
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_91
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 7.199997
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_92
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 7.199997
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_93
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 7.199997
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_94
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 7.199997
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_95
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 7.199997
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_96
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 7.199997
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_97
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 7.199997
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_98
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 7.199997
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AutoGen_Sheet_gamefield_02_99
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 7.199997
+        width: 204.8
+        height: 204.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline:
+    - - {x: -118.57733, y: 764.25916}
+      - {x: -305.14032, y: 496.74915}
+      - {x: -574, y: 436}
+      - {x: -828.4334, y: 601.8921}
+      - {x: -973.8819, y: 316.43338}
+      - {x: -1024, y: -0.00004476046}
+      - {x: -973.88184, y: -316.43344}
+      - {x: -828.4334, y: -601.892}
+      - {x: -601.892, y: -828.4335}
+      - {x: -316.4332, y: -973.88196}
+      - {x: 0.00033366156, y: -1024}
+      - {x: 316.43384, y: -973.8817}
+      - {x: 601.8926, y: -828.43304}
+      - {x: 828.43384, y: -601.89154}
+      - {x: 973.88214, y: -316.4326}
+      - {x: 1024, y: 0.0009887735}
+      - {x: 685.90796, y: 279.73193}
+      - {x: 373.8861, y: 520.0182}
+      - {x: 167.1073, y: 707.03357}
+      - {x: -110, y: 471}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
