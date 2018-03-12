@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <item>
+		<ID value="0"/>
+		<Des value="一把钥匙"/>
+	</item>
+	<item>
+		<ID value="1"/>
+		<Des value="一把铁剑"/>
+	</item>
+</config>

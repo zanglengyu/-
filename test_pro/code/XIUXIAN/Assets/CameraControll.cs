@@ -69,10 +69,10 @@ public class CameraControll : MonoBehaviour
 #if UNITY_STANDALONE || UNITY_EDITOR
     m_curTouchePoint = Input.mousePosition;
 #elif UNITY_ANDROID || UNITY_IOS
-        if (Input.touchCount > 0) {
-            Touch touch = Input.GetTouch(0);
-            worldMousePosition = touch.position;
-        }
+        //if (Input.touchCount > 0) {
+        //    Touch touch = Input.GetTouch(0);
+        //    worldMousePosition = touch.position;
+        //}
 #endif
 
 

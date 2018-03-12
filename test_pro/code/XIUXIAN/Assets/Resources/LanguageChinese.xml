@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <item>
+		<YOUGET value="你获得了"/>
+		<YOUGET value="You get"/>
+	</item>
+	<item>
+		<GETGOLD value="你获得了{0}金币"/>
+		<GETGOLD value="You get {0} golds"/>
+	</item>
+</config>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <duihua>
+		<ID value="0"/>
+		<npcname value="琪"/>
+		<Des>
+			<str value="你好，我是琪"/>
+			<str value="你好，我是"/>
+		</Des>
+		<Des>
+			<str value="欢迎来到密林深处！"/>
+			<str value="噢，懵懂。。"/>
+			<str value="人的一生都会有幸福的时光，你也不例外，好好享受活着的时光吧！"/>
+			<str value="是啊，我会的。"/>
+			<str value="我这里有一把剑，送给你防身了！"/>
+			<str value="谢谢！"/>
+			<str value="记得把你的故事讲给我听，我喜欢听故事！，我叫琪"/>
+			<str value="叫我无名者吧"/>
+		</Des>
+	</duihua>
+	<duihua>
+		<ID value="1"/>
+		<npcname value="盖"/>
+		<Des>
+			<str value="你好，我是盖"/>
+			<str value="你好，我是"/>
+		</Des>
+		<Des>
+			<str value="你要听我讲个故事吗？"/>
+			<str value="我想听听"/>
+			<str value="很久以前，有个叫凯的男孩，那时，他还只是个无名之辈，从来没有获得过任何殊荣。"/>
+			<str value="恩"/>
+			<str value="身边的人也都是无名之辈，男孩却一心想要成就一番不平凡的事迹，于是男孩决定出去寻找幸福。"/>
+			<str value="是的，我也曾经有一些英雄的梦想"/>
+			<str value="可是村里的老人告诉他，外面有很多坏人，他们坑蒙拐骗，而且除了坏人，外边的诱惑太多，会很容易把人带坏。"/>
+			<str value="然后呢"/>
+			<str value="男孩还是离开了家去了外面，最后再也没有有人见过他，男孩的姐姐后来出去找过他，但只有她一个人回来。"/>
+			<str value="最后那个男孩做了什么？"/>
+			<str value="最后，他也许找到了幸福吧，成就一番不平之事。"/>
+			<str value="好吧，故事讲完了？有东西要送给我吗"/>
+			<str value="对不起，我只能给你讲故事，你可以讲给其他人听，比如琪，她最喜欢听故事了。"/>
+		</Des>
+	</duihua>
+	
+    <duihua>
+		<ID value="2"/>
+		<npcname value="露"/>
+		<Des>
+			<str value="你好，我是露"/>
+			<str value="你好，我是"/>
+		</Des>
+		<Des>
+			<str value="你见过一个叫凯的男孩吗？"/>
+			<str value="没见过，不过我曾经听别人说起过他。"/>
+			<str value="那你知道他现在过的怎么样吗，在哪里吗？"/>
+			<str value="对不起，不知道！"/>
+			<str value="如果我知道了一定会告诉你。"/>
+			<str value="好的，谢谢你！这双鞋子送给你。"/>
+			<str value="哇，太棒了，这是我第一次穿鞋。"/>
+		</Des>
+	</duihua>
+	
+	<duihua>
+		<ID value="3"/>
+		<npcname value="黑脸老头"/>
+		<Des>
+			<str value="这里很危险，赶紧离开这里。"/>
+		</Des>
+		<Des>
+			<str value="哪里来的野小子，不知道这里很危险吗？"/>
+			<str value="这是哪里？"/>
+			<str value="这是诱惑之花的诞生地，你看这里四周都是这种花，有剧毒。"/>
+			<str value="幸好我走不进去。"/>
+			<str value="这里是人们能接他最近的地方了。"/>
+			<str value="好吧"/>
+			<str value="我这里有一把打开传送门的钥匙，是离开这里的唯一方法，不过你要帮我收集诱惑之花的花蕊。"/>
+			<str value="可是我走不进去啊。"/>
+			<str value="别担心，我觉得你和其他人不一样，你再去试试看能不能走进去。"/>
+			<str value="那我会不会被毒死。"/>
+			<str value="你和别人不一样，不会被毒死的。"/>
+			<str value="好的，我去试试，这游戏的NPC怎么这么友好呢，哇哈哈，好开心。"/>
+		</Des>
+	</duihua>
+	
+	<duihua>
+		<ID value="4"/>
+		<npcname value="风"/>
+		<Des>
+			<str value="这里很安静，我喜欢这里。"/>
+		</Des>
+		<Des>
+			<str value="你怎么才来？我等了你几万年了。"/>
+			<str value="几万年？（懵逼。。）"/>
+			<str value="是的，有十万年了。"/>
+			<str value="。。。"/>
+			<str value="活着离开这里，是你成就一番不平事迹的开始。也只能是开始。"/>
+			<str value="好吧"/>
+			<str value="我这里有一把打开传送门的钥匙。"/>
+			<str value="该不会又是骗我的吧。"/>
+			<str value="什么，风从来不骗人，老了就说不定了。"/>
+			<str value="。。。"/>
+		</Des>
+	</duihua>
+</config>

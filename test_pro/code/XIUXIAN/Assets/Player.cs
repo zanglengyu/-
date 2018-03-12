@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class Player : MonoBehaviour {
 
     // Use this for initialization
@@ -11,16 +11,66 @@ public class Player : MonoBehaviour {
 
     private string m_lastContidon = "";
 
-    private float m_moveSpeed = 2f;
+    private float m_moveSpeed = 1.5f;
 
     private bool m_moveBegin = false;
 
     public CapsuleCollider2D m_myCollider;
-	void Start ()
+
+    private bool m_touchUp;
+    private bool m_touchDown;
+    private bool m_touchLeft;
+    private bool m_touchRight;
+
+    private float m_hp = 0;
+    private int m_gold;
+
+    public Weapon [] m_weapons;
+
+    private static Player m_instance = null;
+
+    public static Player GetPlayerInstance()
+    {
+       return m_instance;
+    }
+
+    void Awake()
+    {
+        m_instance = this;
+    }
+
+    void Start()
     {
 		
 	}
-	
+
+    public void SetTouchDir(int dir, bool enable)
+    {
+        if (enable)
+        {
+            if (dir == 1)
+            {
+                ToUp();
+            }
+            else if (dir == 2)
+            {
+                ToDown();
+            }
+            else if (dir == 3)
+            {
+                ToLeft();
+            }
+            else if (dir == 4)
+            {
+                ToRight();
+            }
+        }
+        else
+        {
+            ToKong(dir);
+        }
+
+    }
 	// Update is called once per frame
 	void Update ()
     {
@@ -73,66 +123,184 @@ public class Player : MonoBehaviour {
         float moveDir = 0;
         if (m_moveBegin)
         {
-            moveDir = m_moveSpeed * Time.deltaTime;
+            moveDir =  m_moveSpeed * Time.deltaTime;
             Vector3 v3 = new Vector3(0,0,0);
-            if (m_curMoveDir == 1)
+            Transform mapTran = MapManager.gInstance.gameObject.transform;
+            bool mapMove = true;
+            if (mapMove)
             {
+                if (m_curMoveDir == 1)
+                {
+                    v3 = new Vector3(mapTran.localPosition.x, mapTran.localPosition.y - moveDir, mapTran.localPosition.z);
+                }
+                else if (m_curMoveDir == 2)
+                {
+                    v3 = new Vector3(mapTran.localPosition.x, mapTran.localPosition.y + moveDir, mapTran.localPosition.z);
+                }
+                else if (m_curMoveDir == 3)
+                {
+                    v3 = new Vector3(mapTran.localPosition.x + moveDir, mapTran.localPosition.y, mapTran.localPosition.z);
+                }
+                else if (m_curMoveDir == 4)
+                {
+                    v3 = new Vector3(mapTran.localPosition.x - moveDir, mapTran.localPosition.y, mapTran.localPosition.z);
+                }
+            }
+            else
+            {
+                if (m_curMoveDir == 1)
+                {
+                    v3 = new Vector3(gameObject.transform.localPosition.x, gameObject.transform.localPosition.y + moveDir, gameObject.transform.localPosition.z);
+                }
+                else if (m_curMoveDir == 2)
+                {
+                    v3 = new Vector3(gameObject.transform.localPosition.x, gameObject.transform.localPosition.y - moveDir, gameObject.transform.localPosition.z);
+                }
+                else if (m_curMoveDir == 3)
+                {
+                    v3 = new Vector3(gameObject.transform.localPosition.x - moveDir, gameObject.transform.localPosition.y, gameObject.transform.localPosition.z);
+                }
+                else if (m_curMoveDir == 4)
+                {
+                    v3 = new Vector3(gameObject.transform.localPosition.x + moveDir, gameObject.transform.localPosition.y, gameObject.transform.localPosition.z);
+                }
 
-
-                v3 = new Vector3(gameObject.transform.localPosition.x, gameObject.transform.localPosition.y + moveDir, gameObject.transform.localPosition.z);
             }
-            else if (m_curMoveDir == 2)
-            {
-                v3 = new Vector3(gameObject.transform.localPosition.x, gameObject.transform.localPosition.y - moveDir, gameObject.transform.localPosition.z);
-            }
-            else if (m_curMoveDir == 3)
-            {
-                v3 = new Vector3(gameObject.transform.localPosition.x - moveDir, gameObject.transform.localPosition.y, gameObject.transform.localPosition.z);
-            }
-            else if (m_curMoveDir == 4)
-            {
-                v3 = new Vector3(gameObject.transform.localPosition.x + moveDir, gameObject.transform.localPosition.y, gameObject.transform.localPosition.z);
-            }
-
-            Vector2 curV2 = new Vector2(gameObject.transform.localPosition.x, gameObject.transform.localPosition.y);
+            Vector2 curV2 = new Vector2(gameObject.transform.position.x, gameObject.transform.position.y);
             Vector2 newV2 = new Vector2(v3.x, v3.y);
+            if (mapMove)
+            {
+                newV2 = curV2;
+            }
+            else
+            {
+                
+            }
 
+
+            Vector2 newV2CheckPoint = newV2;
+            Vector2 newV2CheckPoint1 = newV2;
             if (m_curMoveDir == 1)
             {
-                newV2.y += GetComponent<BoxCollider2D>().size.y / 2;
+                //Debug.Log("BoxCollider2D = " + GetComponent<BoxCollider2D>().size.y);
+                newV2.y += GetComponent<BoxCollider2D>().size.y / 2 + moveDir;
+                newV2CheckPoint.y = newV2.y;
+                newV2CheckPoint.x = newV2.x + GetComponent<BoxCollider2D>().size.x / 2;
+
+                newV2CheckPoint1.y = newV2.y;
+                newV2CheckPoint1.x = newV2.x - GetComponent<BoxCollider2D>().size.x / 2;
             }
             else if (m_curMoveDir == 2)
             {
-                newV2.y -= GetComponent<BoxCollider2D>().size.y / 2;
+                newV2.y = newV2.y - GetComponent<BoxCollider2D>().size.y / 2 - moveDir;
+                newV2CheckPoint.y = newV2.y;
+                newV2CheckPoint.x = newV2.x + GetComponent<BoxCollider2D>().size.x / 2;
+
+                newV2CheckPoint1.y = newV2.y;
+                newV2CheckPoint1.x = newV2.x - GetComponent<BoxCollider2D>().size.x / 2;
             }
             else if (m_curMoveDir == 3)
             {
-                newV2.x -= GetComponent<BoxCollider2D>().size.x / 2;
+                newV2.x = newV2.x - GetComponent<BoxCollider2D>().size.x / 2 - moveDir;
+                newV2CheckPoint.x = newV2.x;
+                newV2CheckPoint.y = newV2.y + GetComponent<BoxCollider2D>().size.y / 2;
+
+
+                newV2CheckPoint1.x = newV2.x;
+                newV2CheckPoint1.y = newV2.y - GetComponent<BoxCollider2D>().size.y / 2;
             }
             else if (m_curMoveDir == 4)
             {
-                newV2.x += GetComponent<BoxCollider2D>().size.x / 2;
+                newV2.x += GetComponent<BoxCollider2D>().size.x / 2 + moveDir;
+                newV2CheckPoint.x = newV2.x;
+                newV2CheckPoint.y = newV2.y + GetComponent<BoxCollider2D>().size.y / 2;
+
+                newV2CheckPoint1.x = newV2.x;
+                newV2CheckPoint1.y = newV2.y - GetComponent<BoxCollider2D>().size.y / 2;
             }
+
             //Collider2D[] OverlapPointAll(Vector2 point, int layerMask);
+
+            //Collider2D OverlapBox(Vector2 point, Vector2 size, float angle, int layerMask);
             Collider2D [] hit = Physics2D.OverlapPointAll(newV2);
+       
             for (int i = 0; i != hit.Length; ++i)
             {
-                Debug.Log(hit[i].gameObject.layer);
-                if (hit[i].gameObject.layer == 9)
+
+                if (hit[i].gameObject.layer == 9 || hit[i].gameObject.layer == 13 || hit[i].gameObject.layer==15)
                 {
-                    Debug.Log("hit[i].gameObject.layer");
+
+                    if (hit[i].gameObject.layer == 15)
+                    {
+                        //打开箱子
+                        OpenBox(hit[i].gameObject);
+                    }
+                    return;
+                }
+                else if (hit[i].gameObject.layer == 10)
+                {
+                    Debug.Log("OnTriggerEnter2D hit npc");
+                    NpcConfig nc = hit[i].gameObject.GetComponent<NpcConfig>();
+                   
+                    GameManager.Ins.m_juqingWindow.ShowJuqingById(nc.m_npcId);
+                    return;
+                }
+                else if (hit[i].gameObject.layer == 11)
+                {
+
+                }
+            }
+            hit = Physics2D.OverlapPointAll(newV2CheckPoint);
+            for (int i = 0; i != hit.Length; ++i)
+            {
+
+                if (hit[i].gameObject.layer == 9 || hit[i].gameObject.layer == 13 || hit[i].gameObject.layer == 15)
+                {
+                    Debug.Log("newV2CheckPoint .gameObject.layer");
+                    if(hit[i].gameObject.layer == 15)
+                    {
+                        //打开箱子
+                        OpenBox(hit[i].gameObject);
+                    }
                     return;
                 }
             }
-            
 
+            hit = Physics2D.OverlapPointAll(newV2CheckPoint1);
+            for (int i = 0; i != hit.Length; ++i)
             {
-                gameObject.transform.localPosition = new Vector3(v3.x, v3.y, v3.z); ;
+
+                if (hit[i].gameObject.layer == 9 || hit[i].gameObject.layer == 13 || hit[i].gameObject.layer == 15)
+                {
+                    Debug.Log("newV2CheckPoint1 .gameObject.layer");
+
+                    if (hit[i].gameObject.layer == 15)
+                    {
+                        //打开箱子
+                        OpenBox(hit[i].gameObject);
+                    }
+                    return;
+                }
             }
+            if (mapMove)
+            {
+                MapManager.gInstance.transform.localPosition = new Vector3(v3.x, v3.y, v3.z);
+            }
+            else
+            {
+                gameObject.transform.localPosition = new Vector3(v3.x, v3.y, v3.z); 
+            }
+
         }
     }
 
 
+    public void OpenBox(GameObject gb)
+    {
+        Debug.Log("888888");
+        Animator a = gb.GetComponent<Animator>();
+        a.SetBool("play", true);
+    }
     public void ToLeft()
     {
         string[] ay = { "ktl","utl","dtl","","rtl"};
@@ -223,14 +391,10 @@ public class Player : MonoBehaviour {
             //m_anim.SetBool(ay[m_curMoveDir], true);
             if (!m_lastContidon.Equals(""))
             {
-
                 m_anim.SetBool(m_lastContidon, false);
             }
             m_lastContidon = ay[m_curMoveDir];
             m_anim.SetBool(m_lastContidon, false);
-
-           
-            //m_curMoveDir = 0;
         }
         if (lastDir == m_curMoveDir)
         {
@@ -242,8 +406,52 @@ public class Player : MonoBehaviour {
     {
         Debug.Log("OnCollisionEnter hit");
     }
+
     void OnTriggerEnter2D(Collider2D hit)
+    { 
+       
+    }
+
+    public bool PickUp(int id)
     {
-        Debug.Log("OnTriggerEnter2D hit");
+
+        bool canPick = GameManager.Ins.m_uiControl.m_bagLayer.PickUp(id);
+        return canPick;
+    }
+
+    public void Attack()
+    {
+        Debug.Log("m_curMoveDir = " + m_curMoveDir);
+        for (int i = 0; i != 4; ++i)
+        {
+            if (i == m_curMoveDir-1)
+            {
+                Debug.Log("Attack");
+                m_weapons[i].gameObject.SetActive(true);
+            }
+            else
+            {
+                m_weapons[i].gameObject.SetActive(false);
+            }
+        }
+    }
+
+
+    public void AddHp(float hp)
+    {
+        m_hp += hp;
+        if (m_hp < 0)
+        {
+            //弹出死亡界面
+        }
+        else
+        {
+            GameManager.Ins.m_uiControl.UpdateHp(m_hp);
+        }
+    }
+
+    public void Damage(float hp)
+    {
+        AddHp(-hp);
     }
 }

@@ -1,16 +1,32 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+public class GameManager : MonoBehaviour
+{
 
-public class GameManager : MonoBehaviour {
+    public static GameManager Ins = null;
+    // Use this for initialization
+    public UIControl m_uiControl;
 
-	// Use this for initialization
-	void Start () {
+    void Awake()
+    {
+        Ins = this;
+        DataConfig.GetIns();
+    }
+
+    void Start ()
+    {
 		
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void Update ()
+    {
 		
 	}
+
+    public ShowJuQing m_juqingWindow;
+
+
 }
